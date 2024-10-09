@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comic-button {
+   display: inline-block;
+   text-align: center;
+   padding: 10px 20px;
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   background-color: #d53916;
+   border: 2px solid #000;
+   border-radius: 10px;
+   cursor: pointer;
+   box-shadow: 5px 5px 0px #000;
+   transition: all 0.3s ease;
+}
+
+.comic-button:hover {
+   background-color: #fff;
+
+   color: #61425c;
+   border: 2px solid #812727;
+   box-shadow: 5px 5px 0px #812727;
+}
+.comic-button:active {
+   background-color: #102718;
+   box-shadow: none;
+   color: #2fdf6d;
+   transform: translateY(4x);
+}
+.todo-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.todo-input {
+   padding: 10px;
+   font-size: 18px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-right: 10px; /* Space between input and button */
+}
